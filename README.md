@@ -8,7 +8,7 @@ Show album cover image on button click!
 2. Click addon button -- a cute watermelon icon. A new tab should open on click and there you have the album image with highest resolution.
 3. You are quite welcome.
 
-![Screenshot on how to use it](./screenshot.gif?raw=true "Screenshot on how to use it")
+![Screenshot on how to use it](./img/screenshot.gif?raw=true "Screenshot on how to use it")
 
 ## Site Coverage
 

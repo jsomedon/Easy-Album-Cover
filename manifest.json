@@ -5,11 +5,11 @@
     "description": "Show album cover image on button click!",
     "homepage_url": "https://github.com/jsomedon/Easy-Album-Cover",
     "icons": {
-        "48": "icon.svg",
-        "96": "icon.svg"
+        "48": "./img/icon.svg",
+        "96": "./img/icon.svg"
     },
     "browser_action": {
-        "default_icon": "icon.svg",
+        "default_icon": "./img/icon.svg",
         "default_title": "Click to see album cover image in new tab..."
     },
     "content_scripts": [
@@ -19,7 +19,7 @@
                 "*://*.bandcamp.com/track/*"
             ],
             "js": [
-                "extractor/bandcamp.js"
+                "./src/extractor/bandcamp.js"
             ]
         },
         {
@@ -27,7 +27,7 @@
                 "*://music.apple.com/*/album/*"
             ],
             "js": [
-                "extractor/itunes.js"
+                "./src/extractor/itunes.js"
             ]
         },
         {
@@ -35,7 +35,7 @@
                 "*://soundcloud.com/*/*"
             ],
             "js": [
-                "extractor/soundcloud.js"
+                "./src/extractor/soundcloud.js"
             ]
         },
         {
@@ -43,13 +43,13 @@
                 "*://open.spotify.com/album/*"
             ],
             "js": [
-                "extractor/spotify.js"
+                "./src/extractor/spotify.js"
             ]
         }
     ],
     "background": {
         "scripts": [
-            "app.js"
+            "./src/app.js"
         ]
     }
 }

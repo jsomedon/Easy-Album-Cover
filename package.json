@@ -2,7 +2,7 @@
   "name": "easy-album-cover",
   "version": "0.0.1",
   "description": "Show album cover image on button click!",
-  "main": "app.js",
+  "main": "./src/app.js",
   "dependencies": {},
   "devDependencies": {
     "jest": "^24.8.0"
