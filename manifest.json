@@ -1,0 +1,55 @@
+{
+    "manifest_version": 2,
+    "name": "Easy Album Cover",
+    "version": "0.0.1",
+    "description": "Show album cover image on button click!",
+    "homepage_url": "https://github.com/jsomedon/Easy-Album-Cover",
+    "icons": {
+        "48": "icon.svg",
+        "96": "icon.svg"
+    },
+    "browser_action": {
+        "default_icon": "icon.svg",
+        "default_title": "Click to see album cover image in new tab..."
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.bandcamp.com/album/*",
+                "*://*.bandcamp.com/track/*"
+            ],
+            "js": [
+                "extractor/bandcamp.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://music.apple.com/*/album/*"
+            ],
+            "js": [
+                "extractor/itunes.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://soundcloud.com/*/*"
+            ],
+            "js": [
+                "extractor/soundcloud.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://open.spotify.com/album/*"
+            ],
+            "js": [
+                "extractor/spotify.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "app.js"
+        ]
+    }
+}
