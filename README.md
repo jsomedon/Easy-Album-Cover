@@ -2,6 +2,14 @@
 
 Show album cover image on button click!
 
+## What it does & How to use it
+
+1. Go to a supporting music site's album page or track page. For example, [this itunes page](https://music.apple.com/us/album/red-diary-page-1-ep/1290728246).
+2. Click addon button -- a cute watermelon icon. A new tab should open on click and there you have the album image with highest resolution.
+3. You are quite welcome.
+
+![Screenshot on how to use it](./screenshot.gif?raw=true "Screenshot on how to use it")
+
 ## Site Coverage
 
 Sites already covered:
@@ -19,7 +27,7 @@ Only firefox for now.
 
 ## Install
 
-Grab it from firefox addon store, or load it as a temp addon.
+Grab it from [firefox addon store](https://addons.mozilla.org/en-US/firefox/addon/easy-album-cover/), or load it as a [temp addon](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Temporary_Installation_in_Firefox).
 
 ## Credit
 
