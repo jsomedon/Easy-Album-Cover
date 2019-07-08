@@ -11,7 +11,7 @@ Sites already covered:
 - soundcloud
 - spotify
 
-Ask for coverage on more sites here on #1. :smile:
+Ask for coverage on more sites on [this issue](https://github.com/jsomedon/Easy-Album-Cover/issues/1). :smile:
 
 ## Browser Coverage
 
