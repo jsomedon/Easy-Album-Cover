@@ -1,0 +1,27 @@
+{
+  "name": "easy-album-cover",
+  "version": "0.0.1",
+  "description": "Show album cover image on button click!",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsomedon/Easy-Album-Cover.git"
+  },
+  "keywords": [
+    "firefox",
+    "addon"
+  ],
+  "author": "jsomedon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsomedon/Easy-Album-Cover/issues"
+  },
+  "homepage": "https://github.com/jsomedon/Easy-Album-Cover"
+}
